@@ -1,8 +1,92 @@
-slater-machining/
-├── index.html
-├── style.css
-└── assets/
-    ├── logo.png
-    ├── part-1.jpg
-    ├── part-2.jpg
-    └── part-3.jpg
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Slater Machining</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Slater Machining home">
+      <img src="assets/logo.png" alt="Slater Machining">
+    </a>
+
+    <nav aria-label="Main navigation">
+      <a href="#capabilities">Capabilities</a>
+      <a href="#portfolio">Examples</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Precision Swiss Machining</p>
+      <h1>Reliable machining for complex components.</h1>
+      <p>
+        A trusted sub-contracting partner for machine shops and product
+        manufacturers.
+      </p>
+      <a class="button" href="#contact">Get in touch</a>
+    </section>
+
+    <section class="section" id="capabilities">
+      <p class="eyebrow">What we do</p>
+      <h2>Capabilities</h2>
+
+      <ul class="capabilities">
+        <li>
+          <h3>Swiss-type machining</h3>
+          <p>Precision machining for small, detailed components.</p>
+        </li>
+        <li>
+          <h3>Live tooling</h3>
+          <p>Milling and drilling operations completed with care.</p>
+        </li>
+        <li>
+          <h3>Materials</h3>
+          <p>Experience with stainless steel, aluminum, brass, and plastics.</p>
+        </li>
+        <li>
+          <h3>Custom parts</h3>
+          <p>From straightforward components to tight-tolerance parts.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section portfolio" id="portfolio">
+      <p class="eyebrow">Selected work</p>
+      <h2>Example parts</h2>
+
+      <div class="gallery">
+        <figure>
+          <img src="assets/part-1.jpg" alt="Example precision-machined part">
+          <figcaption>Precision-machined component</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/part-2.jpg" alt="Example threaded metal component">
+          <figcaption>Threaded component</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/part-3.jpg" alt="Example custom-machined part">
+          <figcaption>Custom component</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="contact" id="contact">
+    <div>
+      <p class="eyebrow">Start a conversation</p>
+      <h2>Contact Slater Machining</h2>
+      <p>Have a project in mind? Get in touch to discuss your needs.</p>
+    </div>
+
+    <div class="contact-details">
+      <a href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a>
+      <a href="tel:+10000000000">(000) 000-0000</a>
+      <p>Your city, state</p>
+    </div>
+  </footer>
+</body>
+</html>
