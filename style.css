@@ -35,8 +35,8 @@ body {
 
 .brand img {
   display: block;
-  width: 220px;
-  max-height: 58px;
+  width: 280px;
+  max-height: 80px;
   object-fit: contain;
   object-position: left center;
 }
